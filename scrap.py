@@ -21,6 +21,7 @@ def makecsv(data):
     writer = csv.writer(f,lineterminator="\n")
     writer.writerow(header)
 
+
     for d in data:
         writer.writerow(d)
 
